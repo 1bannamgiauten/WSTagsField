@@ -245,6 +245,7 @@ open class WSTagsField: UIScrollView {
 
         updatePlaceholderTextVisibility()
         repositionViews()
+        self.textField.becomeFirstResponder()
     }
 
     open func removeTag(_ tag: String) {
